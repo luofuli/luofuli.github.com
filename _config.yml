@@ -29,3 +29,5 @@ github: www.github.com/luofuli # username
 
 # needed for travis-ci build
 exclude: [vendor]
+
+theme: jekyll-theme-minimal
