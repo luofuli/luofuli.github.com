@@ -29,10 +29,12 @@ body {
   background-color: #ffffff;
   border-color: #ffffff;
 }
-.navbar-center {
-  background-color: #ffffff;
-  border-color: #ffffff;
-  float: center!important;
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
 }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
