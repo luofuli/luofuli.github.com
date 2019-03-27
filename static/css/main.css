@@ -29,6 +29,11 @@ body {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+.navbar-center {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  float: right!important;
+}
 .navbar-default .navbar-brand {
   color: #6b6b6b;
 }
