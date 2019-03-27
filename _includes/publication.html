@@ -1,0 +1,101 @@
+
+<style type="text/css">
+.portfolio-content {
+    width: 780px;
+    list-style-type: decimal;
+}
+.portfolio-content li {
+    list-style-position: outside; 
+    display: list-item; 
+    float: left; 
+    width: 720px;
+    height: 165px; 
+    -webkit-transition: .5s ease-in-out; 
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+
+.view {
+    position: relative;
+    float: left;
+    margin: 10px;
+    margin-left: 28px;
+    width: 220px;
+    height: 65px; 
+    border: 10px solid #fff;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -o-perspective: 500px;
+    -ms-perspective: 500px;
+    perspective: 500px;
+}
+
+/*  5.1 Isotope
+-------------------------------------------*/
+
+	.isotope-item {
+		z-index: 2;
+	}
+
+	.isotope-hidden.isotope-item {
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.isotope,
+	.isotope .isotope-item {
+	/* change duration value to whatever you like */
+	  -webkit-transition-duration: 0.8s;
+	     -moz-transition-duration: 0.8s;
+	       -o-transition-duration: 0.8s;
+	          transition-duration: 0.8s;
+	      -ms-transition-duration: 0.8s;
+	}
+
+	.isotope {
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	      -ms-transition-property: height, width;
+	}
+
+	.isotope .isotope-item {
+	  -webkit-transition-property: -webkit-transform, opacity;
+	     -moz-transition-property:    -moz-transform, opacity;
+	       -o-transition-property:      -o-transform, opacity;
+	          transition-property:         transform, opacity;
+	      -ms-transition-property:     -ms-transform, opacity;
+	}	
+</style>
+
+
+
+<section id="research">
+   <div class="container">
+      <h3>Publications</h3>
+      <div class="panel panel-default">
+         <div class="panel-body">
+
+			<ol class="portfolio-content isotope" reversed="" style="position: relative; overflow: hidden; height: 2140px;"><!-- Portfolio Content --><!-- See Documentation for more info -->
+				<li class="f-conference view isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 10px, 0px);">
+				   <em>Incorporating Glosses into Neural Word Sense Disambiguation</em><br>
+				   <b>Fuli Luo</b>, Tianyu Liu, Qiaolin Xia, Baobao Chang and Zhifang Sui<br>
+				   In (<b>ACL 2018</b>).
+				   <a href="https://aclweb.org/anthology/P18-1230">[PDF]</a>
+				</li>
+				<li class="f-conference view isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 10px, 0px);">
+				   <em>Leveraging Gloss Knowledge in Neural Word Sense Disambiguation by Hierarchical Co-Attention</em><br>
+				   <b>Fuli Luo</b>, Tianyu Liu, Zexue He, Qiaolin Xia, Zhifang Sui and Baobao Chang<br>
+				   In (<b>EMNLP 2018</b>).
+				   <a href="https://aclweb.org/anthology/D18-1170">[PDF]</a>
+				</li>
+				</li>
+			</ol>
+		</div>
+      </div>
+   </div>
+</section>
