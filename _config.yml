@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://luofuli.github.io/
-baseurl: /luofuli.github.io/
+url: https://luofuli.github.io/
+baseurl: https://luofuli.github.io/
 title: Fuli Luo
 author: 罗福莉
 description: Personal website and resume
