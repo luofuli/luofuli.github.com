@@ -123,6 +123,9 @@ body {
   line-height: 30px;
   font-size: 18px;
 }
+.panel-default h5 > strong {
+  font-size: 19px;
+}
 .panel-default h6 {
   font-size: 15px;
 }
