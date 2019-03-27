@@ -32,7 +32,7 @@ body {
 .navbar-center {
   background-color: #ffffff;
   border-color: #ffffff;
-  float: right!important;
+  float: center!important;
 }
 .navbar-default .navbar-brand {
   color: #6b6b6b;
@@ -45,8 +45,8 @@ body {
 }
 .navbar-default .navbar-nav > li > a {
 /*   color: #6b6b6b; */
-  font-size:20px;
-  color:#27A822;
+  font-size:17px;
+/*   color:#27A822; */
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #6b6b6b;
