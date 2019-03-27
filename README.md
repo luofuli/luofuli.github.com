@@ -11,4 +11,4 @@ hosted in [Github pages](https://pages.github.com/). See more in [sustain](https
 
 ## View the live demo
 
-[Sustain Live Demo](https://luofuli.github.io/)
+[Live Demo](https://luofuli.github.io/)
